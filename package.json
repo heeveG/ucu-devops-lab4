@@ -1,0 +1,25 @@
+{
+  "name": "service-bus-ucu-test",
+  "version": "1.0.0",
+  "description": "Sample application for deploying to Microsoft Azure App Service. Part of lectures about Azure in https://ucu.edu.ua/en/",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/service-bus": "^7.1.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heeveG/ucu-devops-lab4.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heeveG/ucu-devops-lab4/issues"
+  },
+  "homepage": "https://github.com/heeveG/ucu-devops-lab4#readme"
+}

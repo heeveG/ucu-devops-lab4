@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>Received messages:</h3>
+
+<table>
+      <% for(var i=0; i<msgs.length; ++i) {%>
+        <tr>
+            <td><%= msgs[i] %></td>
+        </tr>
+      <% } %>
+</table>  
+
+<br><br>
+<b>Submit message:</b>
+
+<form method="POST" action="/form">
+  <label for="msg">Message</label><br>
+  <input type="text" id="msg" name="msg"><br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+</body>
+</html>
